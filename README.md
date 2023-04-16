@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Overview
+
+This project displays images and information of horned animals. It will also allow you to filter the images by number of horns and choose your favorite image.
+
 ## Available Scripts
 
 In the project directory, you can run:
