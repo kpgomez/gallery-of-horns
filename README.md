@@ -6,6 +6,40 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project displays images and information of horned animals. It will also allow you to filter the images by number of horns and choose your favorite image.
 
+## Time Estimates
+
+Feature 1 & 2 were completed simultaneously so total of 3 hours for both. Rewatching the lecture took about an hour and a half.
+
+### Number and name of feature: #1 Display Images
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 6PM
+
+Finish time: 8:45PM
+
+Actual time needed to complete: Almost 3 hours which includes rewatching the lecture
+
+### Number and name of feature: #2 Allow Users to Favorite Individual Beasts
+
+Estimate of time needed to complete: 1
+
+Start time: 8:45PM
+
+Finish time: 8:55PM
+
+Actual time needed to complete: 10 minutes
+
+### Number and name of feature: #3 Bootstrap
+
+Estimate of time needed to complete: 30 minutes
+
+Start time: 8:55PM
+
+Finish time: 9:25PM
+
+Actual time needed to complete: 30 minutes
+
 ## Available Scripts
 
 In the project directory, you can run:
