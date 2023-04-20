@@ -1,3 +1,7 @@
-.beasts, Card{
+.card{
     margin: 10px;
+}
+.beasts{
+    display:flex;
+    flex-wrap: wrap;
 }
