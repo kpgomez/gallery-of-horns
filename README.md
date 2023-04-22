@@ -36,9 +36,9 @@ Estimate of time needed to complete: 30 minutes
 
 Start time: 8:55PM
 
-Finish time: 9:25PM
+Finish time: 9:55PM
 
-Actual time needed to complete: 30 minutes
+Actual time needed to complete: 1 hour
 
 ## Available Scripts
 
