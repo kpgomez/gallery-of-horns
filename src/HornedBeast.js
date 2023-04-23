@@ -4,7 +4,7 @@ import { Card, Button } from "react-bootstrap";
 
 
 
-//React.Component is the parent and App receives all of the parent's functionality
+//React.Component is the parent and HornedBeast receives all of the parent's functionality
 class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
@@ -19,6 +19,10 @@ class HornedBeast extends React.Component {
     });
   };
 
+  handleModalEvent = () => {
+    this.props.selectedBeast(this.props.beast);
+    this.props.showBeastModal();
+  } 
   render() { //required function for every class
 
     return (
@@ -32,10 +36,10 @@ class HornedBeast extends React.Component {
           <img src={this.props.imageURL} alt={this.props.description} title={this.props.title} height={250} />
           <p>{this.props.description}</p> */}
 
-          <Card classname="card" style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={this.props.imageURL} height={250} />
+          <Card style={{ width: '18rem' }}>
+            <Card.Img variant="top" src={this.props.imageURL} height={250} onClick={this.handleModalEvent} />
             <Card.Body>
-              <Card.Title>{this.props.title}</Card.Title>
+              <Card.Title classname ="title">{this.props.beastData.title}</Card.Title>
               <Card.Text>
                 Favorites ❤️ {this.state.faveCounter}
               </Card.Text>
