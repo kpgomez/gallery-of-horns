@@ -40,6 +40,16 @@ Finish time: 9:55PM
 
 Actual time needed to complete: 1 hour
 
+### Number and name of feature: #4 Display Modal
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 5:15PM
+
+Finish time: 
+
+Actual time needed to complete: 
+
 ## Available Scripts
 
 In the project directory, you can run:
