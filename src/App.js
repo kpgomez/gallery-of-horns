@@ -18,7 +18,7 @@ class App extends React.Component { //class name matches the name of the file
   }
 
   selectedBeast = (beastObj) => {
-    this.setState({ beastData: beastObj })
+    this.setState({ beast: beastObj })
     console.log(this.state);
   }
 
