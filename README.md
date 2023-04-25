@@ -48,7 +48,7 @@ Start time: 5:15PM
 
 Finish time: 
 
-Actual time needed to complete: 
+Actual time needed to complete: 6+ hours
 
 ## Available Scripts
 

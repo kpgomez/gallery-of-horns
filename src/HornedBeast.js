@@ -39,7 +39,7 @@ class HornedBeast extends React.Component {
           <Card style={{ width: '18rem' }}>
             <Card.Img variant="top" src={this.props.imageURL} height={250} onClick={this.handleModalEvent} />
             <Card.Body>
-              <Card.Title classname ="title">{this.props.beastData.title}</Card.Title>
+              <Card.Title className ="title">{this.props.title}</Card.Title>
               <Card.Text>
                 Favorites ❤️ {this.state.faveCounter}
               </Card.Text>

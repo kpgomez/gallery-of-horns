@@ -18,8 +18,10 @@ class App extends React.Component { //class name matches the name of the file
   }
 
   selectedBeast = (beastObj) => {
-    this.setState({ beast: beastObj })
-    console.log(this.state);
+    // console.log(beastObj);
+    this.setState({ beast: beastObj });
+    // console.log(this.state.beast);
+    // console.log(this.state.beastData);
   }
 
   showBeastModal = () => {
@@ -38,6 +40,7 @@ class App extends React.Component { //class name matches the name of the file
           showBeastModal={this.showBeastModal}
           selectedBeast={this.selectedBeast} 
           beastData={this.state.beastData} //passes the JSON data stored in state.beastData into the Main component
+          // beast={this.state.beast} //this was causing the beast prop that was passed down to be set to empty
           />
         <SelectedBeast
           showModal={this.state.showModal}
