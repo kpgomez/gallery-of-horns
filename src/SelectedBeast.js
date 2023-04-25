@@ -1,7 +1,6 @@
 //brings in the React Library
 import React from "react";
 import { Button, Modal } from "react-bootstrap";
-// import App from "./App";
 
 
 //React.Component is the parent and SelectedBeast receives all of the parent's functionality
