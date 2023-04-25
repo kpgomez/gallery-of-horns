@@ -5,6 +5,15 @@
     display:flex;
     flex-wrap: wrap;
 }
+.modal{
+    text-align: center;
+}
+.modal-title{
+    text-align: center;
+}
 h1{
     text-align: center;
+}
+.modal>p{
+    margin: 15px;
 }
