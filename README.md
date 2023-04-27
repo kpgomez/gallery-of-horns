@@ -46,9 +46,20 @@ Estimate of time needed to complete: 2 hours
 
 Start time: 5:15PM
 
-Finish time: 
+Finish time: Monday 4/24 during lecture/code review
 
 Actual time needed to complete: 6+ hours
+
+### Number and name of feature: #5 Forms
+Jaye Rhinehart helped with rendering issue. changed this.state.beastData to beastJSON App.js ln 43, 45, 47, 49
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 4/25 11:15pm 4/26 9PM
+
+Finish time: 4/26 12:30am 4/26 9:40PM
+
+Actual time needed to complete: 2 hours
 
 ## Available Scripts
 
