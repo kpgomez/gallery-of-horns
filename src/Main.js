@@ -18,6 +18,7 @@ class Main extends React.Component {
                         beast={beast}
                         beastData={this.props.beastData}
                         key={idx}
+                        // horns={beast.horns}
                     />  
                 )}
             </div>
